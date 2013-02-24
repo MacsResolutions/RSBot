@@ -5,7 +5,6 @@ public class Constants {
 	public static int DUNGEON_ENTRANCE = 48496;
 	public static int END_STAIRS = 50552;
 	public static int RING_OF_KINSHIP = 15707;
-	public static int FREMENNIK_BANKER = 9710;
 	public static int COINS = 18201;
 	public static int WALL = 0x200000;
 	public static int[] GROUP_GATESTONE = { 18829, 20208 };
@@ -345,6 +344,11 @@ public class Constants {
 			12821, 12822, 12823, 12824, 12825, 12826, 12827, 12828, 12829,
 			12830, 12831, 12832, 12833, 12834, 12835, 12836, 12837, 12838,
 			12839, 12840, 12841 };
+	
+	public static int[] ICE_WARRIOR ={10228};
+	
+	public static int FREMENNIK_BANKER = 9710;
+	public static int SMUGGLER = 11226;
 
 	/*
 	 * Interfaces to be used to form a party, select floor and complexity, leave

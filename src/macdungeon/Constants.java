@@ -6,9 +6,18 @@ import org.powerbot.game.api.wrappers.widget.Widget;
 import org.powerbot.game.api.wrappers.widget.WidgetChild;
 
 public class Constants {
+	//Misc
 	public static int DUNGEON_ENTRANCE = 48496;
+	public static int END_STAIRS = 50552;
 	public static int RING_OF_KINSHIP = 15707;
 	public static int FREMENNIK_BANKER = 9710;
+	public static int COINS = 18201;
+	public static int WALL = 0x200000;
+	public static int[] GROUP_GATESTONE = {18829, 20208};
+	public static int[] PERSONAL_GATESTONE = {17489, 20863};
+	public static int[] PORTAL = {53124, 53125, 53126};
+	public static int[] FINISHED_LADDERS = {49696, 49698, 49700};
+	public static int[] EXIT_LADDERS = {50604, 51156, 51704};
 	
 	//Keys
 	public static int[] ORANGE_KEYS = {18202, 18204, 18206, 18208, 18210, 18212, 18214, 18216};
@@ -116,11 +125,18 @@ public class Constants {
 	public static int[][] NOOB_FOOD = {HEIM_CRAB[1], RED_EYE[1]};
 	public static int[][] GOOD_FOOD = {DUSK_EEL[1], FLATFISH[1], SHORT_FIN[1], WEB_SNIPPER[1], BOULDABASS[1], 
 									SALVE_EEL[1], BLUE_CRAB[1], CAVE_MORAY[1]};
-
+	
+	//Puzzle
+	
+	
+	//NPCs
+	
 	/*
 	 *	Interfaces to be used to form a party, select floor and complexity,
 	 *	leave party, and reset prestige
+	 *	Going to have to go in individual class that uses it
 	 */
+	/*
 	public static Widget MUST_BE_IN_PARTY = new Widget(1186);
 	public static WidgetChild MUST_BE_IN_PARTY_YES = new WidgetChild(MUST_BE_IN_PARTY, 11);
 	public static WidgetChild MUST_BE_IN_PARTY_NO = new WidgetChild(MUST_BE_IN_PARTY, 13);
@@ -152,5 +168,5 @@ public class Constants {
 									new WidgetChild(COMPLEXITY_INTERFACE, 75), 
 									new WidgetChild(COMPLEXITY_INTERFACE, 80),
 									new WidgetChild(COMPLEXITY_INTERFACE, 85)};
-	
+	*/
 }

@@ -1,9 +1,12 @@
 package macdungeon.bosses;
 
 import macdungeon.commom.BossPlugin;
+import macdungeon.misc.Constants;
 
 public class Pummeller extends BossPlugin {
 
+	private int[] ids = Constants.PUMMELLER;
+	
 	@Override
 	public String getAuthor() {
 		return "Mac_Daddy";

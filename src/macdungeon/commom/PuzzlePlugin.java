@@ -7,6 +7,11 @@ public abstract class PuzzlePlugin extends Plugin {
 	protected boolean canSolve = true;
 	protected boolean solved;
 	
+	@Override
+	public String getStatus() {
+		return "Solving: " + getName();
+	}
+	
 	public boolean isPossible() {
 		return canSolve;
 	}
